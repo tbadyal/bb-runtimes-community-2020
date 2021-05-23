@@ -123,5 +123,6 @@ package Interfaces.SAM is
    WDT_Base : constant System.Address := System'To_Address (16#400E1A50#);
    RTC_Base : constant System.Address := System'To_Address (16#400E1A60#);
    GPBR_Base : constant System.Address := System'To_Address (16#400E1A90#);
+   NVIC_Base : constant System.Address := System'To_Address (16#E000E100#);
 
 end Interfaces.SAM;
